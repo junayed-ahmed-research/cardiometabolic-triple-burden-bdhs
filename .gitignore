@@ -1,0 +1,24 @@
+# DHS raw data
+data/raw/*
+!data/raw/README.md
+*.DTA
+*.dta
+*.sav
+
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Handover and private files
+Final_Analysis_Handover/
+*.zip
+outputs/Professor*
+
+# System files
+.DS_Store
+Thumbs.db
+~$*
+
+# Archive folder
+R/_archive/
